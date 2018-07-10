@@ -24,4 +24,4 @@ VOLUME [ "/data" ]
 WORKDIR /data
 
 # Define default command.
-ENTRYPOINT ["/usr/local/bin/wrk"]
+CMD ["/usr/local/bin/wrk"]
